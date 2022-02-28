@@ -1,0 +1,33 @@
+.features .box{
+    padding: 50px;
+}
+.features .box h2{
+    margin: 20px 0 20px 0;
+}
+.features .box p{
+    -ms-word-break: 2px;
+    transform: 0.5s;
+}
+.features .box i{
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+.features .box:hover p{
+    color: white;
+}
+.features .box:hover i{
+    opacity: 1;
+    color: white;
+}
+@media (max-width:768px) {
+    .features .content .box{
+        width: 100%;
+        flex-direction: column;
+    }
+    .features .grid{
+        display: block;
+        margin: auto 20px  ;
+    }
+}
