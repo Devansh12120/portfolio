@@ -12,6 +12,9 @@
 .Contact .box{
     padding: 30px;
 }
+.box1{
+    padding-left: 20px;
+}
 .Contact .details h1{
     margin: 20px 0 20px 0;
     font-size: 35px;
@@ -32,6 +35,14 @@
     color: #ff014f;
     height: max-content;
     width: max-content;
+}
+.input{
+    
+}
+.input input{
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .Contact .right button:hover{
     color: white;

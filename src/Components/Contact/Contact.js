@@ -72,7 +72,7 @@ function Contact() {
           </div>
           <div className="content d_flex">
             <div className="left">
-              <div className="box box_shadow">
+              <div className="box box_shadow" style={{height: '710px',}}>
                 <div className="img">
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlbJLApw691nzooARvVyNaKox655x5un0lqQ&usqp=CAU"
@@ -101,9 +101,9 @@ function Contact() {
               </div>
             </div>
             <div className="right">
-              <div className="box box_shadow">
+              <div className="box1 box_shadow">
                 <form onSubmit={formSubmit}>
-                    <div className="input row">
+                    <div className="input">
                       <span>YOUR NAME</span>
                       <input
                         type={"text"}
@@ -113,7 +113,7 @@ function Contact() {
                       />
                     </div>
                     <p style={{color:"red",paddingTop:'0px',marginTop:'0px'}}>{error.fullname}</p>
-                    <div className="input row">
+                    <div className="input">
                       <span>YOUR NUMBER</span>
                       <input
                         type={"phone"}
@@ -123,7 +123,7 @@ function Contact() {
                       />
                     </div>
                     <p style={{color:"red",paddingTop:'0px',marginTop:'0px'}}>{error.phone}</p>
-                    <div className="input row">
+                    <div className="input">
                       <span>YOUR EMAIL</span>
                       <input
                         type={"email"}
@@ -133,7 +133,7 @@ function Contact() {
                       />
                     </div>
                     <p style={{color:"red",paddingTop:'0px',marginTop:'0px'}}>{error.email}</p>
-                    <div className="input row">
+                    <div className="input">
                       <span>SUBJECT</span>
                       <input
                         type={"text"}
@@ -143,7 +143,7 @@ function Contact() {
                       />
                     </div>
                     <p style={{color:"red",paddingTop:'0px',marginTop:'0px'}}>{error.subject}</p>
-                    <div className="input row">
+                    <div className="input">
                       <span>MESSAGE</span>
                       <textarea
                         cols={"15"}
